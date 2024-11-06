@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
         headerSliverBuilder: (context, innerBoxIsScrolled) => [
           MySliverAppBar(
             child: Column(
+              
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Divider(
@@ -26,6 +27,7 @@ class _HomePageState extends State<HomePage> {
                   color: Theme.of(context).colorScheme.secondary,
                 ),
                 //my location
+                Text("Testing"),
 
                 //description box
               ],
