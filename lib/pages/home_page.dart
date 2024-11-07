@@ -59,15 +59,15 @@ class _HomePageState extends State<HomePage>
           children: [
             ListView.builder(
               itemCount: 5,
-              itemBuilder: (context, index) => Text("Kaoru"),
+              itemBuilder: (context, index) => Text("Nah"),
             ),
             ListView.builder(
               itemCount: 5,
-              itemBuilder: (context, index) => Text("Hana"),
+              itemBuilder: (context, index) => Text("I'd"),
             ),
             ListView.builder(
               itemCount: 5,
-              itemBuilder: (context, index) => Text("works"),
+              itemBuilder: (context, index) => Text("Win"),
             ),
           ],
         ),
