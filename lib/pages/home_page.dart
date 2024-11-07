@@ -59,11 +59,11 @@ class _HomePageState extends State<HomePage>
           children: [
             ListView.builder(
               itemCount: 5,
-              itemBuilder: (context, index) => Text("unlimited"),
+              itemBuilder: (context, index) => Text("Kaoru"),
             ),
             ListView.builder(
               itemCount: 5,
-              itemBuilder: (context, index) => Text("blade"),
+              itemBuilder: (context, index) => Text("Hana"),
             ),
             ListView.builder(
               itemCount: 5,
@@ -75,3 +75,5 @@ class _HomePageState extends State<HomePage>
     );
   }
 }
+
+//testing
